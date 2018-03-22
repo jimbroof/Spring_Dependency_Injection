@@ -9,9 +9,6 @@ import org.springframework.stereotype.Service;
  * Created by Joachim on 19/03/2018.
  */
 
-@Service
-@Primary
-@Profile("de")
 public class PrimaryGermanGreetingService implements GreetingService {
 
     private GreetingRepository greetingRepository;
